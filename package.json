@@ -1,0 +1,19 @@
+{
+  "name": "redux-vanilla",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx webpack --mode=production",
+    "start": "npx webpack-dev-server --mode=development"
+  },
+  "dependencies": {
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
